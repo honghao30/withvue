@@ -1,0 +1,57 @@
+header {
+  width: 100%;
+  background-color: #313a46;
+  .navbar__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 55px;
+    h1 {
+      flex-grow: 1;
+    }
+    a {
+      color:#fff;
+    }
+  }
+  .navbar-toggler {
+    display: none;
+  }
+    .nav__wrap {
+      flex-grow: 2;
+      .nav__list {
+        display: flex;
+        align-items: center;
+        li {
+          flex-grow: 1;
+        }
+      }  
+    }
+    .d-flex {
+      flex-grow: 1;   
+      display: flex;
+      justify-content: flex-end;   
+      button {
+        color:#fff;
+      }
+    }
+  }
+
+
+  //board
+  .board__wrap--innerbox {
+    input,
+    textarea {
+      border: 1px solid #313a46;
+      width: 100%;
+    }
+    .card {
+      border:1px solid #333;
+      padding:20px;
+      border-radius: 10px;
+    }
+  }
+  .board-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+  }

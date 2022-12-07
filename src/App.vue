@@ -1,26 +1,14 @@
+<script setup>
+  import TheHeader from './layouts/TheHeader.vue';
+  import TheVue from './layouts/TheVue.vue';
+</script>
+
 <template>
-  <v-app>
-    <v-main>
-      <IntroWeater/>
-      <HelloWorld/>
-    </v-main>
-  </v-app>
+  <TheHeader></TheHeader>
+  <TheVue></TheVue>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-import IntroWeater from './components/IntroWeater.vue'
 
-export default {
-  name: 'App',
-
-  components: {
-    IntroWeater,
-    HelloWorld,
-  },
-
-  data: () => ({
-    //
-  }),
-}
-</script>
+<style lang="scss">
+  @import './assets/scss/reset.scss';
+</style>
