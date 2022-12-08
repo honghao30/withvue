@@ -2,7 +2,6 @@
   <div class="board__wrap">
     <h2>게시판 수정</h2>
     <div class="board__wrap--innerbox">
-    <div class="board__wrap--innerbox">
         <form>
             <dl>
               <dt>제목</dt>

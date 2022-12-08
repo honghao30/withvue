@@ -3,7 +3,7 @@
     <h2>게시판 상세보기</h2>
     <div class="board__wrap--innerbox">
       <div class="board__view">
-        <h3>제목/h3>
+        <h3>제목</h3>
         <div class="context">
             본문입니다.
         </div>
@@ -19,7 +19,7 @@
 </template>
 
 <script setup>
-
+  console.log(router.params)
 </script>
 
 <style lang="scss" scoped>

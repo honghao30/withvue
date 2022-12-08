@@ -17,7 +17,7 @@
 						</li>
 						<li class="nav-item">
 							<RouterLink class="nav-link" active-class="active" to="/about">
-								About
+								With Vue
 							</RouterLink>
 						</li>
 						<li class="nav-item">
