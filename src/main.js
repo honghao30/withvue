@@ -14,6 +14,7 @@ createApp(App).use(router).mount('#app');
 //.use(BootstrapVue)  
   
 //Vue.prototype.$axios = axios;  
+//Vue.prototype.$http = axios;
 //app.config.globalProperties.$axios = axios;
 //import 'bootstrap/dist/js/bootstrap.js';
 
