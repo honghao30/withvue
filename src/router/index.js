@@ -3,6 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
 import AboutView from '@/views/AboutView.vue';
 import PostList from '@/views/posts/PostList.vue';
+import PostView from '@/views/posts/PostView.vue';
+import PostCreator from '@/views/posts/PostCreator.vue';
 
 const routes = [
   {
@@ -19,6 +21,16 @@ const routes = [
     path: '/post',
     name: 'List',
     component: PostList,
+  },
+  {
+    path: '/post/:id',
+    name: 'View',
+    component: PostView,
+  },
+  {
+    path: '/post/Create',
+    name: 'Creator',
+    component: PostCreator,
   },
 ];
 const router = createRouter({
